@@ -1,0 +1,3 @@
+actinic_keratosis
+basal_cell_carcinoma
+melanoma
