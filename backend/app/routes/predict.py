@@ -1,8 +1,10 @@
 from fastapi import APIRouter, UploadFile, File
 import shutil
 import os
+import cloudinary.uploader
 
 from app.services.predict import predict_image
+from app.services.save_prediction import save_prediction
 
 router = APIRouter()
 
@@ -13,13 +15,47 @@ os.makedirs(UPLOAD_DIR, exist_ok=True)
 @router.post("/predict")
 async def predict(file: UploadFile = File(...)):
 
+    # =========================
+    # Save Temp File
+    # =========================
+
     file_path = f"{UPLOAD_DIR}/{file.filename}"
 
     with open(file_path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
 
-    result = predict_image(file_path)
+    # =========================
+    # Upload To Cloudinary
+    # =========================
+
+    cloudinary_result = cloudinary.uploader.upload(
+        file_path
+    )
+
+    image_url = cloudinary_result["secure_url"]
+
+    # =========================
+    # ML Prediction
+    # =========================
+
+    prediction_result = predict_image(file_path)
+
+    # =========================
+    # Save To MongoDB
+    # =========================
+
+    prediction_data = {
+        "image_url": image_url,
+        "predicted_class": prediction_result["predicted_class"],
+        "confidence": prediction_result["confidence"]
+    }
+
+    await save_prediction(prediction_data)
+
+    # =========================
+    # Cleanup Temp File
+    # =========================
 
     os.remove(file_path)
 
-    return result
+    return prediction_data
