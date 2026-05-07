@@ -1,4 +1,4 @@
-# Skin AI
+# SkinScan AI
 
 AI-powered skin disease detection platform built using Deep Learning, FastAPI, Next.js, and Explainable AI.
 <img width="1440" height="900" alt="Screenshot 2026-05-07 at 11 01 25 PM" src="https://github.com/user-attachments/assets/36bdb8eb-6894-4254-8192-2633bdca14dd" />
