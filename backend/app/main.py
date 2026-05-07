@@ -28,6 +28,6 @@ async def home():
     collections = await db.list_collection_names()
 
     return {
-        "message": "Skin AI Backend Running",
+        "message": "SkinScanAI Backend Running",
         "collections": collections
     }
