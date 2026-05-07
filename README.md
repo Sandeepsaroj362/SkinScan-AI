@@ -1,6 +1,15 @@
 # Skin AI
 
 AI-powered skin disease detection platform built using Deep Learning, FastAPI, Next.js, and Explainable AI.
+<img width="1440" height="900" alt="Screenshot 2026-05-07 at 11 01 25 PM" src="https://github.com/user-attachments/assets/36bdb8eb-6894-4254-8192-2633bdca14dd" />
+<img width="1440" height="900" alt="Screenshot 2026-05-07 at 11 01 44 PM" src="https://github.com/user-attachments/assets/525d0815-e1be-4c56-bb9b-e9618d1f5d18" />
+<img width="1440" height="900" alt="Screenshot 2026-05-07 at 11 02 36 PM" src="https://github.com/user-attachments/assets/498b9fca-3168-4730-93b1-ec09bfa7a171" />
+<img width="1440" height="900" alt="Screenshot 2026-05-07 at 11 02 52 PM" src="https://github.com/user-attachments/assets/b19aae38-a5fb-4ccb-8343-9f2fcd99060b" />
+<img width="1440" height="900" alt="Screenshot 2026-05-07 at 11 03 14 PM" src="https://github.com/user-attachments/assets/52ba0339-a9b1-4211-b814-63f28a1f8c2b" />
+<img width="1440" height="900" alt="Screenshot 2026-05-07 at 11 07 37 PM" src="https://github.com/user-attachments/assets/f25b6400-7988-454a-a5d4-8cc77b680e64" />
+<img width="1440" height="900" alt="Screenshot 2026-05-07 at 11 08 06 PM" src="https://github.com/user-attachments/assets/cc6173c3-efaa-4a8b-ae4e-dc8b79d23fe6" />
+
+
 
 Skin AI allows users to upload skin lesion images and receive:
 - AI disease prediction
@@ -10,6 +19,8 @@ Skin AI allows users to upload skin lesion images and receive:
 - Downloadable PDF reports
 - Consultation booking workflow
 - Analytics dashboard
+
+  
 
 ---
 
