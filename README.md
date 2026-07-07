@@ -1,5 +1,5 @@
 # SkinScan AI
-Upgraded version is skinscan
+Upgraded version is skinscan and Go to that repo.
 AI-powered skin disease detection platform built using Deep Learning, FastAPI, Next.js, and Explainable AI.
 <img width="1440" height="900" alt="Screenshot 2026-05-07 at 11 01 25 PM" src="https://github.com/user-attachments/assets/36bdb8eb-6894-4254-8192-2633bdca14dd" />
 <img width="1440" height="900" alt="Screenshot 2026-05-07 at 11 01 44 PM" src="https://github.com/user-attachments/assets/525d0815-e1be-4c56-bb9b-e9618d1f5d18" />
