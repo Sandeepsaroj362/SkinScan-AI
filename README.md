@@ -195,9 +195,9 @@ Store Prediction History
 Generate Reports
 
 ##Author
-Atul Pal
-GitHub: https://github.com/atulpal02
-LinkedIn: https://linkedin.com/in/atulpal02
+Sandeep
+GitHub: https://github.com/Sandeepsaroj362
+LinkedIn: https://www.linkedin.com/in/sandeep-61b209255/
 
 ##License
 This project is built for educational and research purposes.
